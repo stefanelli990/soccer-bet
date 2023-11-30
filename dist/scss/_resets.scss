@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import './mixins';
+
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    margin-top: 93px;
+    @include lg {
+        margin-top: 104px;
+    }
+}
+
+button {
+    font-family: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 500;
+}
