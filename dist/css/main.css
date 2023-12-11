@@ -23,6 +23,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #1D1D1D;
   color: #fff;
+  font-size: 14px;
 }
 
 ul {
@@ -39,15 +40,11 @@ img {
 }
 
 main {
-  margin-top: 93px;
-}
-@media (min-width: 992px) {
-  main {
-    margin-top: 104px;
-  }
+  margin-top: 107px;
 }
 
 button {
+  font-size: inherit;
   font-family: inherit;
   outline: none;
   border: none;
@@ -73,12 +70,6 @@ button {
   align-items: center;
   gap: 6px;
   border-radius: 8px;
-  font-size: 14px;
-}
-@media (min-width: 992px) {
-  .primary-btn {
-    font-size: 16px;
-  }
 }
 .primary-btn:hover {
   background-color: #108e3e;
@@ -116,7 +107,6 @@ button {
   padding: 12px;
   border-bottom: 1px solid #434343;
   width: 100%;
-  background-color: #292929;
   font-size: 14px;
   color: #fff;
   display: flex;
@@ -127,9 +117,10 @@ button {
 .dropdown-btn {
   border: 1px solid #434343;
   border-radius: 8px;
+  background-color: #292929;
 }
 .dropdown li:hover {
-  background-color: #363636;
+  background-color: #202020;
 }
 .dropdown li:last-of-type {
   border-bottom: 0;
@@ -145,7 +136,7 @@ button {
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: #292929;
+  background-color: #161616;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #434343;
@@ -172,7 +163,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 8px;
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 8px;
   text-wrap: nowrap;
   cursor: pointer;
@@ -230,7 +221,7 @@ button {
   gap: 4px;
   width: 100%;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 .bottom-menu #ticket-btn {
   background-color: #0D7734;
@@ -282,29 +273,13 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.navbar-left {
-  display: flex;
-  align-items: center;
-}
-.navbar-title {
-  font-size: 16px;
-}
-@media (min-width: 992px) {
-  .navbar-title {
-    display: none;
-  }
-}
 .navbar .logo {
-  width: 100px;
-  border-right: 1px solid #434343;
-  padding-right: 8px;
-  margin-right: 12px;
+  width: 125px;
   cursor: pointer;
 }
 @media (min-width: 992px) {
   .navbar .logo {
-    width: 125px;
-    border-right: none;
+    width: 150px;
   }
 }
 .navbar-nav-links {
@@ -316,7 +291,7 @@ button {
   }
 }
 .navbar-nav-link {
-  padding: 24px 16px;
+  padding: 27px 16px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -363,8 +338,6 @@ button {
 .hamburger-menu-item {
   padding: 16px 12px;
   border-left: 6px solid #161616;
-  font-weight: 500;
-  font-size: 14px;
   border-bottom: 1px solid #272727;
 }
 .hamburger-menu-item-active {
@@ -380,7 +353,7 @@ button {
 .dropdown-section .container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
 @media (min-width: 992px) {
   .dropdown-section .container {
@@ -403,7 +376,7 @@ button {
   background-color: #1D1D1D;
   padding: 12px 0;
   position: sticky;
-  top: 75px;
+  top: 94px;
   left: 0;
   width: 100%;
   z-index: 1;
@@ -415,7 +388,7 @@ button {
 }
 
 .pairs {
-  margin-bottom: 70px;
+  margin-bottom: 71px;
   padding: 0;
 }
 @media (min-width: 992px) {
@@ -427,7 +400,7 @@ button {
   background-color: #242424;
   padding: 12px;
   font-size: 14px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 @media (min-width: 992px) {
   .pairs .pair {
@@ -496,6 +469,7 @@ button {
 .pairs .pair .time {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 4px;
   margin-bottom: 4px;
 }
@@ -517,11 +491,10 @@ button {
 .pairs .pair .btn {
   background-color: #434343;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   padding: 8px;
   width: 100%;
   border-radius: 8px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -607,7 +580,7 @@ button {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .ticket-item > div > div + div > div {
   display: flex;

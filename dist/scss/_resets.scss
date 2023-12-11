@@ -25,6 +25,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: $bg-color;
     color: $text-color;
+    font-size: 14px;
 }
 
 ul {
@@ -41,13 +42,11 @@ img {
 }
 
 main {
-    margin-top: 93px;
-    @include lg {
-        margin-top: 104px;
-    }
+    margin-top: 107px;
 }
 
 button {
+    font-size: inherit;
     font-family: inherit;
     outline: none;
     border: none;
